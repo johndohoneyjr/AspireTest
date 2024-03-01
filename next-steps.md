@@ -18,9 +18,11 @@ To troubleshoot any issues, see [troubleshooting](#troubleshooting).
 ### Configure CI/CD pipeline
 
 ## Create Bicep Files
+
+```bash
 azd config set alpha.infraSynth on
 azd infra synth
-
+```
 
 1. Create a workflow pipeline file locally. The following starters are available:
    - [Deploy with GitHub Actions](https://github.com/Azure-Samples/azd-starter-bicep/blob/main/.github/workflows/azure-dev.yml)
