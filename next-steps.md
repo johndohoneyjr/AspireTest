@@ -57,20 +57,3 @@ In addition, for each project resource referenced by your app host, a `container
 
 *Note*: `azd infra synth` is currently an alpha feature and must be explicitly enabled by running `azd config set alpha.infraSynth on`. You only need to do this once.
 
-## Billing
-
-Visit the *Cost Management + Billing* page in Azure Portal to track current spend. For more information about how you're billed, and how you can monitor the costs incurred in your Azure subscriptions, visit [billing overview](https://learn.microsoft.com/en-us/azure/developer/intro/azure-developer-billing).
-
-## Troubleshooting
-
-Q: I visited the service endpoint listed, and I'm seeing a blank or error page.
-
-A: Your service may have failed to start or misconfigured. To investigate further:
-
-1. Click on the resource group link shown to visit Azure Portal.
-2. Navigate to the specific Azure Container App resource for the service.
-3. Select *Monitoring -> Log stream* under the navigation pane.
-4. Observe the log output to identify any errors.
-5. If logs are written to disk, examine the local logs or debug the application by using the *Console* to connect to a shell within the running container.
-
-For additional information about setting up your `azd` project, visit our official [docs](https://learn.microsoft.com/en-us/azure/developer/azure-developer-cli/make-azd-compatible?pivots=azd-convert).
