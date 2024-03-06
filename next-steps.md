@@ -4,8 +4,7 @@
 
 1. [Next Steps](#next-steps)
 2. [What was added](#what-was-added)
-3. [Billing](#billing)
-4. [Troubleshooting](#troubleshooting)
+
 
 ## Next Steps
 
