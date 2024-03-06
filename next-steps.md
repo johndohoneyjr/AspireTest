@@ -12,8 +12,6 @@
 
 Run `azd up` to provision your infrastructure and deploy to Azure in one step (or run `azd provision` then `azd deploy` to accomplish the tasks separately). Visit the service endpoints listed to see your application up-and-running!
 
-To troubleshoot any issues, see [troubleshooting](#troubleshooting).
-
 ### Configure CI/CD pipeline
 
 ## Create Bicep Files
